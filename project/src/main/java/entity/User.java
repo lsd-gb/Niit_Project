@@ -8,4 +8,5 @@ public class User implements Serializable{
 	private String login;
 	private String password;
 	private Integer status;
+	private Integer status2;
 }
