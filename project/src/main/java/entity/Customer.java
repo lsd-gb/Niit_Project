@@ -2,7 +2,7 @@ package entity;
 
 import java.io.Serializable;
 
-public class Custom implements Serializable {
+public class Customer implements Serializable {
 	private Integer id;
 	private String name;
 	private Integer userid;

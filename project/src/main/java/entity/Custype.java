@@ -2,10 +2,9 @@ package entity;
 
 import java.io.Serializable;
 
-public class Good implements Serializable {
+public class Custype implements Serializable {
 	private Integer id;
 	private String name;
-	private double price;
 	public Integer getId() {
 		return id;
 	}
@@ -17,12 +16,6 @@ public class Good implements Serializable {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public double getPrice() {
-		return price;
-	}
-	public void setPrice(double price) {
-		this.price = price;
 	}
 	
 }
