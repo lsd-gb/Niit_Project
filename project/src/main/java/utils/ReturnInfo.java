@@ -10,7 +10,32 @@ public class ReturnInfo {
 	
 	public static String getLimit(Integer page,Integer max) {
 		if(page==null) return "";
-		return " limit "+(page*max)+","+max;
+		return " limit "+((page-1)*max)+","+max;
 	}
 
+	public int getCount() {
+		return count;
+	}
+	public void setCount(Object object) {
+		this.count = (Integer) object;
+	}
+	public int getCode() {
+		return code;
+	}
+	public void setCode(int code) {
+		this.code = code;
+	}
+	public String getMsg() {
+		return msg;
+	}
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+	public List getList() {
+		return list;
+	}
+	public void setList(List list) {
+		this.list = list;
+	}
+	
 }
