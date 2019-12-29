@@ -12,12 +12,12 @@ public class Reserved implements Serializable {
 	private String reservedate;
 	private String execusername;
 	private Integer status;
-	public static String[] statusStrings= {"Õı³£","³¬Ê±"};
+	public static String[] statusStrings= {"æ­£å¸¸","è¶…æ—¶"};
 	public String getStatusname() {
 		return statusStrings[status];
 	}
 	private Integer execstatus;
-	public static String[] execs= {"Î´Ö´ĞĞ","ÒÑÍê³É"};
+	public static String[] execs= {"æœªæ‰§è¡Œ","å·²å®Œæˆ"};
 	public String getExecstatusname() {
 		return execs[execstatus];
 	}

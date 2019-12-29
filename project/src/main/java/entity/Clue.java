@@ -6,7 +6,7 @@ public class Clue implements Serializable{
 
 	private Integer id;
 	private Integer source;
-	public static String[] sources= {"网络营销","公开媒体","合作伙伴","员工介绍","广告","推销电话"};
+	public static String[] sources= {"缃戠粶钀ラ攢","鍏紑濯掍綋","鍚堜綔浼欎即","鍛樺伐浠嬬粛","骞垮憡","鎺ㄩ攢鐢佃瘽"};
 	public String getSourcename() {
 		return sources[source];
 	}
@@ -14,7 +14,7 @@ public class Clue implements Serializable{
 	private String company;
 	private String post;
 	private Integer sex;
-	public static String[] sexs= {"先生","女士"};
+	public static String[] sexs= {"鍏堢敓","濂冲＋"};
 	public String getSexname() {
 		return sexs[sex];
 	}

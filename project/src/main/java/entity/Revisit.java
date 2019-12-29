@@ -25,22 +25,22 @@ public class Revisit implements Serializable {
 		this.username = username;
 	}
 	private Integer linkstatus;
-	public static String[] lstatus={"¹Ò»ú","Î´½Ó","ÓĞ½»Á÷","ÉîÈë½»Á÷"};
+	public static String[] lstatus={"æŒ‚æœº","æœªæ¥","æœ‰äº¤æµ","æ·±å…¥äº¤æµ"};
 	public String getLstatusname() {
 		return lstatus[linkstatus];
 	}
 	private Integer customerstatus;
-	public static String[] cstatus={"ÅÅ³â","ÍÆÍÑ","ºóĞø","½ÏºÃ"};
+	public static String[] cstatus={"æ’æ–¥","æ¨è„±","åç»­","è¾ƒå¥½"};
 	public String getCstatusname() {
 		return cstatus[customerstatus];
 	}
 	private Integer purposestatus;
-	public static String[] pstatus={"²»¸ĞĞËÈ¤","ÆÕÍ¨","ÓĞÒâÏò","ºÜ¸ĞĞËÈ¤","³É½»"};
+	public static String[] pstatus={"ä¸æ„Ÿå…´è¶£","æ™®é€š","æœ‰æ„å‘","å¾ˆæ„Ÿå…´è¶£","æˆäº¤"};
 	public String getPstatusname() {
 		return pstatus[purposestatus];
 	}
 	private Integer assessstatus;
-	public static String[] astatus={"½áÊø","ÎŞ½á¹û","ÓĞÔ¤Ô¼"};
+	public static String[] astatus={"ç»“æŸ","æ— ç»“æœ","æœ‰é¢„çº¦"};
 	public String getAstatusname() {
 		return astatus[assessstatus];
 	}

@@ -51,19 +51,19 @@ public class Customer implements Serializable{
 	private String post;
 	private Integer type;
 	private Integer free;
-	public static String[] sexs= {"ÏÈÉú","Å®Ê¿"};
+	public static String[] sexs= {"å…ˆç”Ÿ","å¥³å£«"};
 	public String getSexname() {
 		return sexs[sex];
 	}
-	public static String[] statustStrings= {"ÎŞÒâÏò","ÓĞÒâÏò","¸ĞĞËÈ¤","¿ÉÒÔºÏ×÷","ÕıÔÚÇ¢Ì¸","Íê³É"};
+	public static String[] statustStrings= {"æ— æ„å‘","æœ‰æ„å‘","æ„Ÿå…´è¶£","å¯ä»¥åˆä½œ","æ­£åœ¨æ´½è°ˆ","å®Œæˆ"};
 	public String getStatusname() {
 		return statustStrings[status];
 	}
-	public static String[] roles= {"ÉÌÎñ¾ö²ß","¼¼Êõ¾ö²ß","²ÆÎñ¾ö²ß","ÒâÏòÈË","¹ÜÀíÕß"};
+	public static String[] roles= {"å•†åŠ¡å†³ç­–","æŠ€æœ¯å†³ç­–","è´¢åŠ¡å†³ç­–","æ„å‘äºº","ç®¡ç†è€…"};
 	public String getRolename() {
 		return roles[role];
 	}
-	public static String[] levels= {"Ò»ĞÇ¿Í»§","¶şĞÇ¿Í»§","ÈıĞÇ¿Í»§","ËÄĞÇ¿Í»§","ÎåĞÇ¿Í»§"};
+	public static String[] levels= {"ä¸€æ˜Ÿå®¢æˆ·","äºŒæ˜Ÿå®¢æˆ·","ä¸‰æ˜Ÿå®¢æˆ·","å››æ˜Ÿå®¢æˆ·","äº”æ˜Ÿå®¢æˆ·"};
 	public String getLevelname() {
 		return levels[level];
 	}

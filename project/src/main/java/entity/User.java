@@ -12,8 +12,8 @@ public class User implements Serializable{
 	private String deptname;
 	private Integer power;
 	private Integer sex;
-	public static String[] statusStrings={"正常","禁用"};
-	public static String[] sexs= {"先生","女士"};
+	public static String[] statusStrings={"姝ｅ父","绂佺敤"};
+	public static String[] sexs= {"鍏堢敓","濂冲＋"};
 	public String getStatusname() {
 		return statusStrings[status];
 	}
