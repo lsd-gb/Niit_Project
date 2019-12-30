@@ -87,5 +87,12 @@ public class User implements Serializable{
 		User.sexs = sexs;
 	}
 	
+	public User() {
+	}
+
+	public User(String login, String password) {
+		this.login=login;
+		this.password=password;
+	}
 	
 }
