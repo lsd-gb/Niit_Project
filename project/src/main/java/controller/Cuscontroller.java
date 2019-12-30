@@ -29,7 +29,6 @@ import service.RevisitService;
 import service.UserService;
 import service_Impl.CusServiceImpl;
 import utils.ReturnInfo;
-import utils.ReturnJson;
 
 @Controller
 @RequestMapping("Cus")

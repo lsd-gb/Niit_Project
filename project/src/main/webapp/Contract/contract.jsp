@@ -32,7 +32,7 @@
 </script>
 	<script type="text/html" id="toolbarDemo">
   <div class="layui-btn-container">
-    <div class="layui-input-inline">
+<div class="layui-input-inline">
       <input type="text" name="txt" lay-verify="title"  autocomplete="off" placeholder="请输入名称" class="layui-input input">
     </div>
 	

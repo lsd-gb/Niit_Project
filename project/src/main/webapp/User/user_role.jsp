@@ -30,10 +30,10 @@
 </script>
 	<script type="text/html" id="toolbarDemo">
   <div class="layui-btn-container">
-    <div class="layui-input-inline">
+<div class="layui-input-inline">
       <input type="text" name="txt" lay-verify="title"  autocomplete="off" placeholder="请输入名称" class="layui-input input">
     </div>
-	<button class="layui-btn layui-btn-sm" lay-event="add">新增</button>
+	
     <button class="layui-btn layui-btn-sm" lay-event="search">查询</button>
   </div>
 </script>
