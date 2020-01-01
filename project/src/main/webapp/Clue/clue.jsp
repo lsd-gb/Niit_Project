@@ -32,7 +32,7 @@
 </script>
 	<script type="text/html" id="toolbarDemo">
   <div class="layui-btn-container">
-    
+    <button class="layui-btn layui-btn-sm" lay-event="search">查询</button>
     <button class="layui-btn layui-btn-sm" lay-event="add">新增</button>
 <button class="layui-btn layui-btn-sm layui-btn-danger" lay-event="manydel">批量删除</button>
 <button class="layui-btn layui-btn-sm layui-btn-normal" lay-event="manychange">批量转化</button>
